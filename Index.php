@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+
     <head>
         <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="stylesheet" type="text/css" href="lines.css">
@@ -34,13 +34,36 @@
                     <p class="sub-text-oblique">GHIVÉCI, (1) ghivece, (2) ghiveciuri, s. n. 1. Vas de pământ ars, de material plastic etc., de formă tronconică, folosit pentru plantarea (în casă a) florilor. ◊ Ghiveci nutritiv = amestec de pământ, nisip, mraniță, îngrășăminte chimice etc., în care se plantează răsadurile de legume. 2. Mâncare preparată din tot felul de legume, cu sau fără carne. ♦ Fig. (Peior.) Creație literară, muzicală etc. eterogenă și lipsită de valoare. – Din tc. güvec.</p>
                 </div> 
                 <div>
-                <?php 
-                echo "asdasdasdasasddceva";
-                ?>    
+                    
                 </div>
-                  
+                
+                
             </div>
-            
+            <?php
+    include ('logic/connectdb.php');
+    echo "<link rel='stylesheet' type='text/css' href='index.css'>";
+    $sql = "SELECT id, title, content, img FROM test";
+    $result = mysqli_query($dbConnected, $sql);
+    echo '<div class="parent" id="pins_div">';
+    if (mysqli_num_rows($result) > 0) {
+      
+        while ($row = $result->fetch_assoc()) {
+            echo 
+            '<div class="pin_card">
+            <img class="imgcard" src="media/'.$row['img'].'">
+              <p>'.$row['title'].'</p>
+              <p>'.$row['content'].'</p>
+              
+            </div>' ;
+        }
+        echo '</div>';
+
+    /*freeresultset*/
+    $result->free();
+    }
+  ?>
+                  
+
         </div>
         
     </body>

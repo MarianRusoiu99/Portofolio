@@ -1,8 +1,9 @@
 <html>
     <body>
-        <form action="logic/insert.php" method="POST">
+        <form action="logic/insert.php" method="POST" enctype="multipart/form-data">
             <input type="text" id="title" name="title">
             <input type="message" id="content" name="content">
+            <input type="hidden" name="MAX_FILE_SIZE" value="2097152000000" />
             <input type="file" id="img" name="img" accept="image/*">
           
             <input type="submit" value="Submit" name= "Submit">
