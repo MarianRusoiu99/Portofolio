@@ -1,0 +1,141 @@
+
+@media only screen and (max-width: 768px){
+    .big-text{
+        font-family: 'Roboto SLab', serif;
+        font-size:3em;
+        padding-top:1em;
+        
+    }
+    .sub-text{
+        font-family: 'Benne',serif;
+        font-size: 1em;
+        padding-top: 3em;
+        
+    }
+    .container{
+        position: relative;
+        padding: 2em;
+        height: 100vh;
+        
+    }
+    .text-position-right{
+        margin: auto;
+        padding:auto;
+        padding-top: 30%;
+        text-align: left;
+        
+    }
+    
+    
+    
+    .big-text-ghiveci{
+     display: none;   
+        
+    }
+    .sub-text-oblique{
+        display:none;
+    }
+    .text-position-left{
+        display: none;
+        width:min-content;
+        margin: auto;
+        text-align: left;
+        padding-top: 30%;
+        padding-left: 5em;
+        padding-right: 1em;
+        text-align: right
+    }
+    
+    .footer{
+        width: 100%;
+        background-color:black;
+        opacity:0.8;
+        clear: both;
+        position: relative;
+        bottom: 0;
+        height: 20%;
+        
+        
+    }
+    .nonfooter{
+        padding-bottom: 10em;
+    }
+    .footertext{
+        text-align: center;
+        font-size:1.2em;
+        padding-top: 1.5em;
+        font-family: 'Benne',serif;
+    }
+    
+    
+    .titlepage{
+        position: relative;
+        padding: 1.5em;
+        padding-left: 1em;
+        font-size: 2.5em;
+        font-family:'Roboto SLab', serif;
+    
+        
+    }
+    .contentpage{
+        padding:1em;
+        font-size:1.5em;
+        font-family: 'Benne',serif;
+    }
+    .imgcard{
+        padding-bottom: 1em;
+    }   
+    
+    
+     
+     .p12{
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Roboto SLab',serif;
+        padding-top:2em;
+        padding-left: 1em;
+        padding-right:1em;
+    }
+    ul{
+        
+        display:inline-flex;
+        width:100%;
+        height:100px;
+        list-style-type: none;
+      
+        
+    }
+    li{
+        
+        width: 10px;
+        height:10px;
+        margin:auto;
+    }
+    .icon{
+        width: 50px;
+        height:50px;
+        
+    }
+
+    .parent {
+        margin: 2em 2em 2em 2em;
+        column-width: 20em;
+        
+    }
+    
+    .pin_card {
+        display: inline-block;
+        margin: 0em 1em 1em;
+        width: 95%;
+        border-width: 1px;
+       
+    }
+    
+    img {
+        cursor: pointer;
+        width: 100%;
+        
+    }   
+    
+    }
+    

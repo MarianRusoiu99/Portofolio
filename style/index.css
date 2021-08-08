@@ -1,0 +1,53 @@
+
+@import "bigscreen.css";
+@import "smallscreen.css";
+
+
+
+body{
+    color: #EB5160;
+    background-color: #071013;
+     
+}
+
+a:visited, a:hover, a:active, a:focus {
+  color: #EB5160 !important;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #071013;
+    border-radius: 30px;
+    opacity:0.2;
+   
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #EB5160; 
+    border-radius: 30px;
+  }
+  form{
+    padding-top:10%;
+    padding-left: 10%;
+    
+    height: 10%;
+    vertical-align: middle;
+        
+  }
+  
+  
+
+
+
+
+
+
