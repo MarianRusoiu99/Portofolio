@@ -106,29 +106,28 @@
         padding-right:1em;
     }
     
-    ul{
-        padding-top:4em;
-        padding-bottom: 3em;
-        display:inline-flex;
-        width:100%;
-        height:100px;
-        list-style-type: none;
-      
-        
-    }
+    
     li{
         
-        width: 100px;
-        height:100px;
-        margin:auto;
+        display: inline-block;
+        width: 50%;
     }
-    
+
+    .icons{
+        padding-top:4em;
+        padding-bottom: 3em;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      
+    }
+
     .footer{
         width: 100%;
         background-color:black;
         opacity:0.8;
         clear: both;
-        position: relative;
+        position: absolutes;
         bottom: 0;
         height: 10%;
         

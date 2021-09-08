@@ -14,11 +14,11 @@
   
   .lines {
     display: table;  
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     right: 0;
-    height: 150%;
+    height: 100%;
     margin: auto;
     width: 90vw;
     
@@ -30,7 +30,7 @@
   
   .line {
     border-radius: 20px;
-    position: absolute;
+    position: static;
     width: 1em;
     height: 100%;
     top: 0px;
