@@ -10,7 +10,7 @@ body{
      
 }
 
-a:visited, a:hover, a:active, a:focus {
+a, a:visited, a:hover, a:active, a:focus {
   color: #EB5160 !important;
   text-decoration: none !important;
   outline: none !important;

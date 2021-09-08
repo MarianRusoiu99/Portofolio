@@ -20,15 +20,15 @@
                 
                 <div class="text-position-right">
                     <p class="big-text">Hello,          I'm Valentin</p>
-                    <p class="sub-text"> I made this website to serve as a hub for my projects and for the things I love.
-                     I have many interests such an Computer Science, Web Design and design in general, Art and Philosophy.
-                     I also wanted to become an arhitect:) .
+                    <p class="sub-text"> I made this website to serve as an archive for my projects and for the things I love.
+                     I have many interests such an Computer Science, Web Design and design in general, Art, Music and Philosophy.
+                   <br>
                     Here are the projects I have been talking about:</p>
                 </div>
                 
                 <div class="text-position-left">
                     <p class="big-text-ghiveci">My mind is <b>GHIVECI</b></p>
-                    <p class="sub-text-oblique">GHIVÉCI, (1) ghivece, (2) ghiveciuri, s. n. 1. Vas de pământ ars, de material plastic etc., de formă tronconică, folosit pentru plantarea (în casă a) florilor. ◊ Ghiveci nutritiv = amestec de pământ, nisip, mraniță, îngrășăminte chimice etc., în care se plantează răsadurile de legume. 2. Mâncare preparată din tot felul de legume, cu sau fără carne. ♦ Fig. (Peior.) Creație literară, muzicală etc. eterogenă și lipsită de valoare. – Din tc. güvec.</p>
+                    <p class="sub-text-oblique">GHIVÉCI, (1) ghivece, (2) ghiveciuri, s. n. 1. Vas de pământ ars, de material plastic etc., de formă tronconică, folosit pentru plantarea (în casă a) florilor. ◊ Ghiveci nutritiv = amestec de pământ, nisip, mraniță, îngrășăminte chimice etc., în care se plantează răsadurile de legume. 2. Mâncare preparată din tot felul de legume, cu sau fără carne. ♦ Fig. (Peior.) Creație literară, muzicală etc. eterogenă și lipsită de valoare. – Din tc. güvec. <br><b> Or shortly: full of random stuff </b></p>
                 </div> 
                 <div>
                     
@@ -121,7 +121,7 @@
                 <li class="icon"><a href="mailto:valentinrusoiu@gmail.com" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img class="icon"  src="icons/1.png"></a></li>
                 <li class="icon"><a href="https://www.instagram.com/valentinrusoiu/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img class="icon" src="icons/2.png"></a></li>
                 <li class="icon"><a href="https://www.linkedin.com/in/valentin-rusoiu-153920197/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img class="icon" src="icons/3.png"></a></li>
-                <li class="icon"><a href="https://www.paypal.me/VRusoiu" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img class="icon" src="icons/4.png"></a></li>
+                <li class="icon"><a href="https://github.com/MarianRusoiu99" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img class="icon" src="icons/4.png"></a></li>
                 <li class="icon"><a href="https://www.youtube.com/channel/UC-6TwhBlJPkN2GG-kmzUgyg" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img class="icon" src="icons/5.png"></a></li>
             </ul>
             
@@ -130,7 +130,7 @@
     
         </div>
         <footer class="footer">
-            <p class ="footertext">This footer serves no purpose at all, it just feels wierd without one:).</p>
+            <p class ="footertext">This footer serves no purpose at all, it just feels wierd without one:). And this <a href="https://paypal.me/VRusoiu?locale.x=en_US">thingy</a></p>
         </footer>          
 
         
