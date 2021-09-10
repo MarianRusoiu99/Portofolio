@@ -26,6 +26,3 @@ if(isset($_POST['Submit1'])){
     mysqli_close($dbConnected);
 
 }
-
-
-?>

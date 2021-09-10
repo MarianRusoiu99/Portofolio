@@ -1,112 +1,157 @@
-
 @import "bigscreen.css";
 @import "smallscreen.css";
 
-
-
-body{
-    color: #EB5160;
-    background-color: #071013;
-     
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-a, a:visited, a:hover, a:active, a:focus {
-  color: #EB5160 !important;
+body {
+  color: #eb5160;
+  background-color: #071013;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #eb5160 !important;
   text-decoration: none !important;
   outline: none !important;
 }
 
+.trans {
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+}
 
 ::-webkit-scrollbar {
-    width: 15px;
-    
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background-color: #071013;
-    border-radius: 30px;
-    opacity:0.2;
-   
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #EB5160; 
-    border-radius: 30px;
-  }
-  form{
-    padding-top:10%;
-    padding-left: 10%;
-    
-    height: 10%;
-    vertical-align: middle;
-        
-  }
+  width: 15px;
+}
 
-  
-  /*nav*/
-  * {
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .ham {
-    position: fixed;
-    /* keep the hamburger button above everything */
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    width: 3rem;
-    height: 3rem;
-    
-    color: #EB5160;
-    background-color:transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
-  
-  .xIcon {
-    display: none;
-  }
-  
-  .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100vh;
-    background: black;
-   
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    list-style: none;
-    padding-top: 4rem;
-  }
-  
-  .showMenu {
-    transform: translateY(0);
-  }
-  
-  li {
-    padding: 1rem 0;
-  }
-  
-  .menuLink {
-    display: inline;
-    font-size: 2rem;
-    text-decoration: none;
-  }
-  
-  .menuLink:hover {
-    text-decoration: underline;
-  }
-  
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #071013;
+  border-radius: 30px;
+  opacity: 0.2;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eb5160;
+  border-radius: 30px;
+}
+form {
+  padding-top: 10%;
+  padding-left: 10%;
 
+  height: 10%;
+  vertical-align: middle;
+}
 
+/*nav*/
 
+.ham {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
 
+  color: #eb5160;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 
+.xIcon {
+  display: none;
+}
+
+.menu {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #071013;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.menuLink {
+  padding: 5px 3em 5px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Roboto SLab", serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.placement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  width: 100%;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+}
+
+.co {
+  padding: 0 3em 2em;
+}
+
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #071013;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader > img {
+  width: 10em;
+  height: 10em;
+}
+
+.loader.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.log {
+  font-family: "Roboto", sans-serif;
+}
