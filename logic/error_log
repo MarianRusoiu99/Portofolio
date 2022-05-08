@@ -1,0 +1,45 @@
+[10-Sep-2021 23:03:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 98
+[10-Sep-2021 23:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php:100
+Stack trace:
+#0 {main}
+  thrown in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[10-Sep-2021 23:15:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php:100
+Stack trace:
+#0 {main}
+  thrown in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[10-Sep-2021 23:17:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php:100
+Stack trace:
+#0 {main}
+  thrown in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[10-Sep-2021 23:22:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 98
+[11-Sep-2021 00:03:09 UTC] PHP Warning:  Error while sending QUERY packet. PID=14803 in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 90
+[11-Sep-2021 00:09:13 UTC] PHP Warning:  Error while sending QUERY packet. PID=23926 in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 90
+[11-Sep-2021 00:12:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=6934 in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 90
+[11-Sep-2021 00:18:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=30880 in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 90
+[18-Sep-2021 16:37:23 UTC] PHP Warning:  Error while sending QUERY packet. PID=40036 in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 90
+[22-Sep-2021 12:33:12 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:37:45 UTC] PHP Notice:  Undefined variable: img in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 65
+[22-Sep-2021 12:37:45 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:38:27 UTC] PHP Notice:  Undefined variable: img in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 65
+[22-Sep-2021 12:38:27 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:40:43 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:42:29 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:43:56 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:43:58 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:44:00 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:44:41 UTC] PHP Notice:  Undefined variable: img in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 65
+[22-Sep-2021 12:44:41 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:44:50 UTC] PHP Notice:  Undefined variable: img in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 65
+[22-Sep-2021 12:44:50 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 100
+[22-Sep-2021 12:45:55 UTC] PHP Notice:  Undefined variable: img in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 65
+[22-Sep-2021 12:45:55 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 101
+[22-Sep-2021 12:46:25 UTC] PHP Notice:  Undefined variable: img in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 65
+[22-Sep-2021 12:46:25 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 101
+[22-Sep-2021 12:48:38 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 101
+[22-Sep-2021 12:51:21 UTC] PHP Warning:  fopen(../posts/19.php): failed to open stream: File exists in /home/u283226794/domains/valentinrusoiu.xyz/public_html/logic/insert.php on line 101

@@ -113,4 +113,35 @@
     cursor: pointer;
     width: 100%;
   }
+  .blogcont{
+    padding:1em;
+    position: relative;
+    width: 100%;
+    align-self: center;
+    background-color: black;
+    border-radius: 2em;
+  }
+  .bloghead{
+    align-items: center;
+    display: inline-flex;
+    margin: auto;
+  }
+  .blogtitle{
+    font-size: 2em;
+    font-family: 'Work Sans','serif';
+  }
+  .blogdate{
+    padding-left: 1em;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+  .blogcontent{
+    font-size: 1em;
+    font-family: "Roboto SLab",'Serif';
+
+  }
+
+
+
+
 }

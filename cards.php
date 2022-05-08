@@ -33,7 +33,7 @@
       <a class="menuLink" href="index.php">Home</a>
       <a class="menuLink" href="cards.php">Work</a>
       <a class="menuLink" href="blog.php">Blog</a>
-      <a class="menuLink" href="#con">Contacts</a>
+      <a class="menuLink" href="index.php">Contacts</a>
     </div>
   </div>
 
@@ -120,7 +120,7 @@
 
   </div>
   <footer class="footer">
-    <p class="footertext">This footer serves no purpose at all, it just feels wierd without one:). And this <a href="https://paypal.me/VRusoiu?locale.x=en_US">thingy</a></p>
+    <p class="footertext">This footer serves no purpose at all, it just feels wierd without one. </a></p>
   </footer>
 
 

@@ -42,14 +42,11 @@
 
                 <div class="text-position-right">
                     <p class="big-text">Hello, I'm Valentin</p>
-                    <p class="sub-text"> I made this website to serve as an archive for my projects and for the things I
-                        love.
-                        I have many interests such an Computer Science, Design, Art, Music and
-                        Philosophy.
+                    <p class="sub-text"> I made this pure, unaltered , ugly, chaos spewing from my mind website.
                         <br>
-                        <a href="cards.php"><b><i> Here </i> </b> </a> are the projects I have been talking about (If you find something you need, feel free to contact me:) <a href="cards.php"> <img class="trans" src="icons/right.png"> </a>
+                        <a href="cards.php"><b><i> Enter to my garrage </i> </b> </a> <a href="cards.php"> <img class="trans" src="icons/right.png"> </a>
                         <br>
-                        P.S. I never been good at copywriting.
+                        P.S. I have never been good at copywriting.<br> Besides new website is on its way. <br> Watch the progress <a href=" http://testappjs.online/"><b>HERE</b></a>
                     </p>
                 </div>
 
@@ -104,7 +101,7 @@
 
     </div>
     <footer class="footer">
-        <p class="footertext">This footer serves no purpose at all, it just feels wierd without one:). And this <a href="https://paypal.me/VRusoiu?locale.x=en_US">thingy</a></p>
+        <p class="footertext">This footer serves no purpose at all, it just feels wierd without one.</a></p>
     </footer>
 
 </body>
